@@ -1,0 +1,90 @@
+body {width: 1000px; background-color: #e6ffe6;
+    background-image: url("../images/flag.jpg");
+    /*background-repeat: no-repeat;*/
+    background-position: left top;
+    background-size: 300px 200px;
+    margin-right: 200px;}
+    table {table-layout: fixed}
+    table {border-collapse: collapse; width: 100%;}
+    td, th {
+       height: 18px; width: 84px; color: grey; text-align: center;
+       background-color: #e0ebeb; border: 1px solid #999;
+   }
+   td.notIndex{background-color: #eff5f5; color: black; text-align: right;
+       font-family: arial; font-size: 14px;}
+       input {border: none;    width: 80px;    font-size: 14px;    padding: 2px;}
+       td.notIndex:hover {background-color: #eee;}
+       input:focus {background-color: lightgrey;text-align: left;}
+       input:not(focus) {text-align: right;}
+       input.activeData {background-color: lightgreen;}
+
+
+       div#myTable {
+           /*overflow: scroll;*/
+           overflow-y:auto;
+           /*border: 1px solid grey;*/
+           width: 900px; height: 600px;
+           border: 1px solid #999;
+           float: left;
+
+       }
+       div#myAddCol {
+           float: left;
+           width: 20px; /*height: 100px;*/
+       }
+
+       div#myAddRow {
+        clear: left;
+    }
+
+    div#myTableHeader{
+    	border: 1px solid #101010;width: 800px;
+    }
+    th {height: 20px; width: 84px;}
+
+    *.hidden {display: none;}
+
+    span{
+        /*background-color: #4747d1;*/float: left;margin-top: 5px;padding-left: 20px;
+        color: #ffffe6;
+    }
+    #stringOfFunction{
+        border: 1px solid grey;width: 700px; height: 27px; text-align: left;
+        float: left; margin-left: 5px;margin-bottom: 5px; margin-top: 5px;
+        padding-left: 5px; font-family: arial; font-size: 14px; color: grey;
+        background-color: #d6e0f5;
+    }
+
+    #inputFormula{
+        width: 690px;
+    }
+
+    #sheetSwitch{
+        width: 800px; padding-left: 20px;
+    }
+
+    *.mytip {
+      position: fixed;
+      padding: 2px 2px;
+      border: 1px solid #b3c9ce;
+      /*border-radius: 4px;*/
+      text-align: center;
+      font: 10px arial, sans-serif;
+      color: #333;
+      background: #fff;
+      box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+  }
+
+  #mainMenu > .btn-link:focus {
+    color: #9d9d9d;
+}
+#mainMenu > .btn-link:hover {
+    color: #9d9d9d;
+}
+
+#mainMenu >.btn-link{
+    color: #00bfff;
+}
+#sheetSwitch > .btn-success {
+    background: #4d4dff;
+}

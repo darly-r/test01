@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link rel="stylesheet" type="text/css" href="css\mystyle.css">
+	<!--source src="src\my1.js"-->
+	<source src="src\myjs.js">
+	</head>
+	<body onload="onMyTableLoad()">
+		<script type="text/javascript" src="src\myutil.js"></script>
+		<script type="text/javascript" src="src\myjs.js">
+		</script>
+		<div id="mainMenu" class="container">
+			<button data-mytip="clear all data <br>and localStorage" type="button" 
+			class="btn btn-link" onclick="clearData()">Clear</button>
+			<button data-mytip="save data <br>to file"
+			type="button" class="btn btn-link" onclick="alert('doesn\'t work yet')">Save</button>
+			<button data-mytip="load external data"
+			type="button" class="btn btn-link" onclick="alert('doesn\'t work yet')">Load</button>
+			<button data-mytip="need help?"
+			type="button" class="btn btn-link" onclick="alert('Still need help? :)')">Help
+			</button>
+			<button data-mytip="click here"
+			type="button" class="btn btn-link"><a href="about.html">About</a>
+			</button>
+		</div>
+		<div id="sheetSwitch" class="btn-group">
+			<button type="button" class="btn btn-primary" onclick="addSheet()">add sheet</button>
+			<button type="button" class="btn btn-success" onclick="setVisible(1)">sheet1</button>
+			<button type="button" class="btn btn-default" onclick="setVisible(2)">sheet2</button>
+			<button type="button" class="btn btn-default" onclick="setVisible(3)">sheet3</button>
+		</div>
+
+		<div> <span>F(x)</span> </div>
+		<div id="stringOfFunction">
+		click on some cell to start 
+			<!--script type="text/javascript">stringOfFunctionEvent()</script-->
+			<!--input id="stringOfFunction"></input-->
+		</div>
+
+		<div id="myTable">
+		</div>
+
+		<div id="myAddCol">
+			<button onclick="addCol()">add column</button>
+		</div>
+		<div id="myAddRow">
+			<button onclick="addRow()">add row</button>
+		</div>
+		<div id="currentData">
+			
+		</div>	
+	</body>
+	</html>

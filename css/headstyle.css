@@ -1,0 +1,13 @@
+body {width: 1000px; background-color: #e6ffe6;
+  background-image: url("../images/flag1.gif");
+  /*background-repeat: no-repeat;*/
+  background-position: left top;
+  background-size: 300px 200px;
+  margin-right: 200px;
+}
+
+#headbutton {
+  margin-left: 140px;
+  margin-top: 160px;
+}
+a {color: #9d9d9d;}
