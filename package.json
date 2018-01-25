@@ -1,0 +1,25 @@
+{
+  "name": "test01",
+  "version": "1.0.0",
+  "description": "learning npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darly-r/test01.git"
+  },
+  "author": "darly-r",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darly-r/test01/issues"
+  },
+  "homepage": "https://github.com/darly-r/test01#readme",
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
+}
